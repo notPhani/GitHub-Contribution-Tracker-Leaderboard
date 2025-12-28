@@ -58,7 +58,7 @@ def callback():
 
     session["access_token"] = access_token
 
-    return redirect("/profile")
+    return redirect("/leaderboard")
 
 
 @app.route("/profile")
